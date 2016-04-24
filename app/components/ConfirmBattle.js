@@ -23,7 +23,7 @@ var ConfirmBattle = React.createClass({
       this.props.isLoading ?
         <Loading /> :
         <div>
-          <div className="mdl-grid">
+          <div className="mdl-grid user-details">
             <div className="mdl-cell mdl-cell--6-col">
               <UserDetailsWrapper header="Player One">
                 <UserDetails info={this.props.playersInfo[0]} />

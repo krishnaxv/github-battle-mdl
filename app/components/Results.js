@@ -42,7 +42,7 @@ function Results(props) {
 
   return (
     <div>
-      <div className="mdl-grid">
+      <div className="mdl-grid user-details">
         <div className="mdl-cell mdl-cell--6-col">
           <UserDetailsWrapper header="Winner">
             <UserDetails info={props.playersInfo[winningIndex]} score={props.scores[winningIndex]} />
