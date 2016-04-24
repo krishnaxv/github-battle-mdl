@@ -18,6 +18,9 @@ var Main = React.createClass({
               <div className="mdl-layout__header-row">
                 <span className="mdl-layout-title">GitHub Battle</span>
                 <div className="mdl-layout-spacer"></div>
+                <nav className="mdl-navigation">
+                  <a className="mdl-navigation__link" href="https://github.com/krishnaxv/github-battle-mdl" target="_blank">GitHub</a>
+                </nav>
               </div>
             </header>
             <main className="mdl-layout__content">
